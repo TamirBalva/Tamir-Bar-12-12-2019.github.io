@@ -1002,7 +1002,7 @@ let CitySearchService = class CitySearchService {
     constructor(httpClient) {
         this.httpClient = httpClient;
         this.apikeys = [
-            "PzDcbsAMsMxIhtLuJock2XNrUUhPq0Cp"
+            "aA5FYSF43JGLolniJ0VboOp3CNu0Me3J"
         ];
     }
     getCityKey(city) {
@@ -1042,8 +1042,8 @@ let Forecast = class Forecast {
     constructor(httpClient) {
         this.httpClient = httpClient;
         this.apikeys = [
-            "75aH0vIi4rJkzoBV6ePblM1yT3CCmgS3",
-            "PzDcbsAMsMxIhtLuJock2XNrUUhPq0Cp"
+            "5PrLdudCiYuWSNgEvgrUwQFdpnMs4PGw",
+	    "k2F9MUTHJPymtYFFwOG1YU7kLDxuAwGo"
         ];
     }
     getFiveDayForecast(cityKey) {
