@@ -773,7 +773,7 @@ let WeatherForecastComponent = class WeatherForecastComponent {
         this.isImperial = false;
     }
     ngOnInit() {
-        this.titleService.setTitle("Herolo Weather App Task");
+        this.titleService.setTitle("Weather App");
         if (sessionStorage.getItem("searched-city-key") === null) {
             this.findLocation();
         }
